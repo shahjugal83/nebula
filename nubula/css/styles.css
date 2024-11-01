@@ -208,7 +208,7 @@ a:hover {
 .header {
     position: fixed;
     width: 100%;
-    background: #ffa831;
+    background: #2db30c;
     z-index: 50;
     border-radius: 0;
     top: 0px;
@@ -409,7 +409,11 @@ a:hover {
 }
 
 .darkBg {
-    background: #000;
+    height: 50%;
+    width: 48%;
+    display: initial;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .darkBg .fa {
@@ -1447,4 +1451,18 @@ footer {
 
 .isotopeWrapper article {
     margin: 0px;
+}
+.one {
+    height: 50%;
+    width: 48%;
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:375px){
+    .one{
+        height: 100%;
+        width: 100%;
+    }
 }
